@@ -1,4 +1,4 @@
-# auto-build: {"image_name": "chaos-as-service/litmusctl-sumo", "tags": ["latest"], "platform": "linux/amd64,linux/arm64"}
+# auto-build: {"image_name": "chaos-as-service/litmusctl-sumo", "tags": ["latest"], "platform": "linux/amd64,linux/arm64", "cron":"@weekly"}
 
 FROM golang:1.23.4 AS builder
 WORKDIR /litmusctl
